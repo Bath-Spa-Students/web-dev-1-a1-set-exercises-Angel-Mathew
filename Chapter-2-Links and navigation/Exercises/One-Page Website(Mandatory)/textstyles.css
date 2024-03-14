@@ -1,0 +1,51 @@
+body{
+    background-image:url(b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{color:rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{color:rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{color:rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{color:rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p1{color:rgb(7, 211, 247)}
+p2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0)}
+.navlink{color:rgb(95, 2, 2);
+    display:flex;
+    position:sticky;
+    align-items:center;
+    justify-content: space-between;
+     top:0px;
+}
+.navlists{ display:flex;
+ list-style:none;
+padding:5px
+}
+.linkone{padding:35px}
+.linktwo{padding:35px}
+.linkthree{padding:35px}
+.linkfour{padding:35px}
+.linkfive{padding:35px}
+.lclass{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color:rgb(0, 0, 0);
+        text-size-adjust: 40px;}
+table,.centre{ 
+    color:rgb(75, 3, 3);
+    border:2px solid rgb(251, 37, 133);
+}
+table,th,td{
+    color:rgb(0, 0, 0);
+}
+.checked{color:yellow }
+
+
