@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js">
+</script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="textstyles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> Angle Angel review page</title>
+</head>
+<body>
+    <header> 
+  <nav class="navlink">
+        <ul class="navlists">
+          <li class="linkone"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/Chater%202%20Ex.html"> Home</a></li>
+        <li class="linktwo"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/About.html"> About</a></li>
+         <li class="linkthree"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/Plot.html">Plot</a></li>
+         <li class="linkfour"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/Seasons.html"> seasons</a></li>
+        <li class="linkfive"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/books.html">books</a></li>
+        <li class="linksix"><a href="http://127.0.0.1:5500/Chapter-2-Links%20and%20navigation/Exercises/One-Page%20Website(Mandatory)/rate.html">rate</a></li>
+        </ul>
+ </nav>
+</header>
+<h4><b><u>Rating </u></b></h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<script>
+var xValues = ["France","Justwatch site","Angle Angel review page"];
+var yValues = [8.6,7.5,8.5];
+var barColors = ["red","yellow","pink"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+     
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text : "Rating of lolirock of France,other website and Angle Angel review page"
+    }
+  }
+});
+</script>
+</body>
+</html>
