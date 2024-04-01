@@ -1,0 +1,53 @@
+body{
+    background-color:burlywood
+}
+h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color :blue;
+}
+h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color : rgb(93, 127, 250);
+}
+h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color : rgb(102, 113, 235);
+}
+h4{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color : rgb(95, 106, 230);
+}
+h5{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color : rgb(90, 84, 243);
+}
+h6{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    color : rgb(55, 45, 236);
+}
+p2{
+    font-family: "Outfit", sans-serif;
+    font-size:30px;
+    color : rgb(72, 190, 199);
+}
+p3{
+    font-family: "Outfit", sans-serif;
+    font-size:30px;
+    color : rgb(72, 190, 199);
+}
+p4{
+    font-family: "Outfit", sans-serif;
+    font-size:30px;
+    color : rgb(168, 61, 14);
+}
+p5{
+    font-family: "Outfit", sans-serif;
+    font-size:20px;
+    color : rgb(0, 0, 0);
+}
