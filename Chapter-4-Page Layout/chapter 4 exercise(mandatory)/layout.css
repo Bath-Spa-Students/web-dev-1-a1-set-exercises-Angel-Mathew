@@ -1,0 +1,42 @@
+h1{ text-align:center;
+}
+.navlink{color:rgb(95, 2, 2);
+
+    height: 40px;
+    display:flex;
+    position:sticky;
+    align-items:center;
+    justify-content: space-between;
+     top:0px;
+}
+
+.navlists{ display:flex;
+    list-style:none;
+   padding:5px
+   }
+.home{padding:35px}
+.about{padding:35px}
+.whats_on {padding:35px}
+.contact{padding:35px}
+.tickets{padding:35px}
+h3{text-align: right;}
+
+ul{float: right;
+ text-size-adjust: 40px;
+}
+ .id{float: right;
+    font-size: 20px;
+ background-color: rgb(6, 3, 234);
+  width:10%;
+ padding: 10%;}
+.head{
+    background-color: rgb(0, 4, 234);
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  

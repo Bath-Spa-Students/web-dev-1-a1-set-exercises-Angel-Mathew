@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* header styling*/
+header{
+    background-color: gray;
+    padding:30px;
+    text-align: center;
+    font-size: 30px;
+    color:beige;
+}
+.navlink{color:rgb(95, 2, 2);
+
+    height: 40px;
+    display:flex;
+    position:sticky;
+    align-items:center;
+    justify-content: space-between;
+     top:0px;
+}
+
+.navlists{ display:flex;
+    list-style:none;
+   padding:5px
+   }
+.home{padding:35px}
+.about{padding:35px}
+.whats_on {padding:35px}
+.contact{padding:35px}
+.tickets{padding:35px}
+
+ul{float: right;
+    text-align: top;
+    text-size-adjust: 40px ;
+    }
+    ul{float: right;
+        text-size-adjust: 40px ;}
+h3{text-align: right;
+ text-size-adjust: 20px;}
+ footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  
