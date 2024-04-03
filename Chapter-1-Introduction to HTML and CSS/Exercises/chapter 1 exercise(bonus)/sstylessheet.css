@@ -1,0 +1,14 @@
+body{background-color: burlywood;
+    color:rgb(0, 0, 0)
+}
+#hc{
+    color:brown;
+    background-color: blueviolet;
+
+}
+.the{
+    color:black;
+}
+#container { margin-left: auto;
+    margin-right: auto;
+    width:80%; }
