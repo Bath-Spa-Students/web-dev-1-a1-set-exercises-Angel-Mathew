@@ -1,4 +1,4 @@
-body{
+body{height: 700px;
     background-color: rgb(255, 165, 0);
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,3 @@ table,th,td{
     color:rgb(0, 0, 0);
 }
 .checked{color:yellow }
-
-
-
-
