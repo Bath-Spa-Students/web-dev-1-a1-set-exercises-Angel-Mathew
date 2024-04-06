@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="audio.css">
+<title> soundboard </title>
+</head>
+<body>
+<h1><b><u>Sound_Board</u></b></h1>
+ 
+ <div class="grid container">
+  <button onclick="Applause">
+    <span class="number">1</span><br>Applause
+    <audio controls > <source src="Applause  Sound Effect.mp4"  id= "Applause"></audio>
+    </span>
+    <span class="label"> Applause</span>
+    <span class="direction">1</span>
+  </button>
+</div>
+<div class="grid container">
+  <button onclick="Goofy_running">
+    <span class="number">2</span><br>Goofy_running
+    <audio controls > <source src="Goofy Running Sound Effect.mp3"  id="Goofy_running"></audio>
+    </span>
+    <span class="label"> Goofy_running</span>
+    <span class="direction">2</span>
+  </button>
+</div>
+
+<div class="grid container">
+  <button onclick="wake_up">
+    <span class="number">3</span><br>wake up!!!
+    <audio controls > <source src="Wake up!!!.mp3"  id="wake up"></audio>
+    </span>
+    <span class="label"> wake up!!!</span>
+    <span class="direction">3</span>
+  </button>
+</div>
+<div class="grid container">
+  <button onclick="Explosion ">
+    <span class="number">3</span><br>Explosion 
+    <audio controls > <source src="Explosion Sound Effects.mp3" id="Explosion"></audio>
+    </span>
+    <span class="label">Explosion </span>
+    <span class="direction">3</span>
+  </button>
+</div>
+
+  <div class="app-container">
+<h1>Speech to text</h1>
+<h4>Enter your text</h4>
+<div class="interaction">
+  <textarea id="textToConvert"
+            placeholder="Enter text to convert into speech..."
+            id="" cols="35"
+             rows="10" class="text">
+    </textarea>
+  <p class="error-para"></p>
+  <button class="btn" id="convertBtn">
+  Play Converted Sound</button>
+</div>
+<script src="sound.js"></script>
+
+</body>
+  </html>
+

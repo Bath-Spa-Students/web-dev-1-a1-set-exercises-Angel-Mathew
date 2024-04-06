@@ -1,0 +1,16 @@
+body{background-color:#F56217;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#0B486B,#F56217 );
+    height: auto;
+
+}
+h1{color:rgb(8, 215, 146);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ h2{color:rgb(167, 15, 88);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px white;
+}
+
+
