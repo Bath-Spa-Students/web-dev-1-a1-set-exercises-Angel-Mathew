@@ -1,0 +1,25 @@
+body{background-color: rgb(10, 174, 158);}
+.wrapper{color:rgb(188, 9, 152);
+ background-color: rgb(73, 112, 240);
+ border-radius: 30px;
+ width:60%;
+text-align: center;
+padding:6px;
+font-family:monospace;
+font-size: 20px;
+}
+#btn{background-color: brown;
+    border-radius: 20px;
+width:60%;
+    text-align: center;
+    button{
+        background-color: aquamarine;
+        border-radius: 5px;
+        border:2px solid black;
+   text-align: center;
+    }
+    button:hover{
+        background-color: rgb(15, 15, 116);
+        text-align: center;
+    }
+}
