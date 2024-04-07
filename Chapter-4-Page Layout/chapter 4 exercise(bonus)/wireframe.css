@@ -1,50 +1,61 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-/* header styling*/
-header{
-    background-color: gray;
-    padding:30px;
-    text-align: center;
-    font-size: 30px;
-    color:beige;
+.head{
+  background-color: #d0c5c5;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 .navlink{color:rgb(95, 2, 2);
-
-    height: 40px;
-    display:flex;
-    position:sticky;
-    align-items:center;
-    justify-content: space-between;
-     top:0px;
-}
-
-.navlists{ display:flex;
-    list-style:none;
-   padding:5px
-   }
-.home{padding:35px}
-.about{padding:35px}
-.whats_on {padding:35px}
-.contact{padding:35px}
-.tickets{padding:35px}
-
-ul{float: right;
-    text-align: top;
-    text-size-adjust: 40px ;
-    }
-    ul{float: right;
-        text-size-adjust: 40px ;}
-h3{text-align: right;
- text-size-adjust: 20px;}
- footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
+  height: 40px;
+  display:flex;
+  position:sticky;
+   align-items:center;
+   justify-content: space-between;
+  top:0px;
   }
-  
-  
+  .navlists{ display:flex;
+      list-style:none;
+     padding:5px;
+     }
+  .home{padding:35px}
+  .about{padding:35px}
+  .whats_on {padding:35px}
+  .contact{padding:35px}
+  .tickets{padding:35px}
+  .welcome{float: left;
+    width: 33.33%;
+    padding: 15px;
+   font-size: large;}
+   .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h4{background-color: #d0c5c5;
+  height: 150px;
+text-align: center;}
+  .id{text-align: center;
+    font-size: large;
+    float: right;
+    background-color: #d0c5c5;
+    h4{background-color: #d0c5c5;
+  height: 150px;
+text-align: center;}
+
+ 
+  @media screen and (max-width:600px) {
+    .id {margin: 8% 0;
+      padding: 10px;
+      float: none;
+      width: 100%;
+     text-align: center;
+    }
+}
+  }
+ footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #d0c5c5;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
