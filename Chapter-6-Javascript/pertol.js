@@ -3,11 +3,10 @@ inputs.forEach(input =>{
     input.addEventListener('change',calculate)
 })
 }
-function calculate(){const Petrol_Price=document.querySelector("#petrol-price").Value;
+function calculate(){const Petrol_Price=document.querySelector("#Petrol_price").value;
 const liters=document.querySelector("#liters").value;
 if("!Petrol_Price||liters")returns;
-document.querySelector("#totalAmount").innerText= 
-Petrol_Price+liters;}
+document.querySelector("#totalAmount").innerHTML= Petrol_Price*liters;}
 
     
 
