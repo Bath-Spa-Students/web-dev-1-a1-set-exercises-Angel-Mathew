@@ -1,4 +1,6 @@
-body{background-color: rgb(10, 174, 158);}
+body{background-color: rgb(152, 226, 152);}
+h1{text-align: center;
+    text-shadow: 2px 3px rgb(206, 124, 62);}
 .wrapper{color:rgb(188, 9, 152);
  background-color: rgb(73, 112, 240);
  border-radius: 30px;
@@ -7,16 +9,23 @@ text-align: center;
 padding:6px;
 font-family:monospace;
 font-size: 20px;
+box-shadow: 10px 5px 4px rgb(172, 18, 172) ;
+
 }
-#btn{background-color: rgb(229, 52, 52);
+#btn{
+    margin-top: 10px;
+    background-color: rgb(229, 52, 52);
     border-radius: 20px;
+    box-shadow: 15px 10px 5px orchid;
 width:60%;
     text-align: center;
     button{
-        background-color: aquamarine;
-        border-radius: 10px;
-        border:2px solid rgb(216, 6, 6);
+        background-color: rgb(11, 231, 157);
+        border-radius: 5px;
+        border:3px solid rgb(235, 48, 235);
    text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
     }
     button:hover{
        text-align: center;
