@@ -42,7 +42,8 @@ header { height: auto;
  list-style:none;
 padding:5px
 }
-.linkone{padding:35px}
+.linkone{float:left;
+    padding:35px}
 .linktwo{padding:35px}
 .linkthree{padding:35px}
 .linkfour{padding:35px}
